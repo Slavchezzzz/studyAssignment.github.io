@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Тренажёрный зал "Iron Pulse"</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/main.css">
+  <script src="/script/main.js"></script>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo">IRON PULSE</div>
+      <ul class="menu">
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#gallery">Фотогалерея</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- Главный экран -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <h1 class="hero-title">Тренажёрный зал "Iron Pulse" в центре города</h1>
+      <p class="hero-subtitle">
+        Современное фитнес-пространство с силовой зоной, кардиолинией и залом функционального тренинга.
+        Работаем с акцентом на индивидуальный подход, прогресс в цифрах и безопасную технику упражнений.
+      </p>
+    <a href="#contacts" class="hero-btn">Записаться на пробную тренировку</a>
+
+    </div>
+  </section>
+  <!-- О нас -->
+  <section id="about">
+    <div class="container about-grid">
+      <div class="about-text">
+        <h2>О тренажёрном зале</h2>
+        <p>
+          "Iron Pulse" — это зал для тех, кто ценит системный подход к тренировкам. 
+          Мы работаем по заранее продуманным программам, учитываем уровень подготовки, возраст и цели каждого клиента. 
+          Вместо случайных упражнений клиенты получают понятный план, прогресс в нагрузках и поддержку тренера.
+        </p>
+        <p>
+          Зал оборудован силовыми тренажёрами, свободными весами и кардиозоной. 
+          Каждая тренировка начинается с короткой консультации, где тренер корректирует технику и объясняет, как безопасно увеличивать нагрузку. 
+          Мы фиксируем результаты, чтобы показать, как меняются показатели силы и выносливости по неделям.
+        </p>
+        <p>
+          Для тех, кто много работает, мы предлагаем утренние и поздние вечерние слоты, 
+          а также онлайн-сопровождение: план тренировок, рекомендации по восстановлению и напоминания о занятиях. 
+          Наша цель — сделать тренировки регулярной, комфортной частью вашего графика, а не разовой вспышкой мотивации.
+        </p>
+      </div>
+
+      <div class="about-graphic">
+        <!-- Адаптивная SVG-иконка -->
+        <svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg" aria-label="Гантель">
+          <rect x="10" y="20" width="20" height="40" fill="#444" />
+          <rect x="40" y="30" width="30" height="20" fill="#888" />
+          <rect x="80" y="10" width="40" height="60" fill="#e53935" />
+          <rect x="130" y="30" width="30" height="20" fill="#888" />
+          <rect x="170" y="20" width="20" height="40" fill="#444" />
+        </svg>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Галерея -->
+  <section id="gallery">
+    <div class="container">
+      <h2>Фотогалерея</h2>
+      <p>Несколько кадров из тренажёрного зала и функциональной зоны.</p>
+      <div class="gallery-grid">
+        <img src="/media/photo/62096b100b0148382a70cf41bdd15c10.jpg" alt="Силовая зона">
+        <img src="/media/photo/maxresdefault.jpg" alt="Кардиотренажёры">
+        <img src="/media/photo/bdir-granados-zona-entrenament-funcional.jpg" alt="Функциональный тренинг">
+    </div>
+    </div>
+  </section>
+
+  <!-- Контакты и форма -->
+  <section id="contacts">
+    <div class="container">
+      <h2>Контакты и запись</h2>
+      <p>Заполните форму, и администратор свяжется с вами для подтверждения времени пробной тренировки.</p>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Имя" required>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Сообщение" required></textarea>
+        <button class="button-contacts" type="submit">Отправить</button>
+      </form>
+      <p id="email-error" class="error-text">Введите корректный email с символом @.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-content">
+    <div>© 2025 Тренажёрный зал "Iron Pulse"</div>
+    <div class="footer-contacts">
+      Телефон: <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+      Email: <a href="mailto:info@ironpulse.ru">info@ironpulse.ru</a>
+    </div>
+    <div class="socials">
+      <a href="https://vk.com" target="_blank" rel="noopener">VK</a>
+      <a href="https://t.me" target="_blank" rel="noopener">Telegram</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
