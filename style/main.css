@@ -84,10 +84,10 @@ p {
 
 /* Главный экран */
 .hero {
-  background: url("/media/photo/orig.jfif") center/cover no-repeat;
+  background: url("/media/photo/ai-generated-exercise-machines-in-a-gym-free-photo.jpg") center/cover no-repeat;
   color: #ffffff;
   position: relative;
-}
+} 
 
 .hero::before {
   content: "";
@@ -279,5 +279,3 @@ footer {
     grid-template-columns: 1fr;
   }
 }
-
-
