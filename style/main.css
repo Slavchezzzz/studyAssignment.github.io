@@ -84,7 +84,7 @@ p {
 
 /* Главный экран */
 .hero {
-  background: url("/media/photo/orig.jfif") center/cover no-repeat;
+  background: url("media/photo/orig.jfif") center/cover no-repeat;
   color: #ffffff;
   position: relative;
 }
